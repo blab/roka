@@ -26,7 +26,7 @@ Maximum Likelihood Analysis
 	./raxml -f d -T 6 -s RokaOutgroupAligned.phyx -n topology -c 25 -m GTRCAT -p 344312987 -o Pailin_C10346_Env 
 	
 	OUTFILES:
-	Tree topology = "XXX.topology"
+	Tree topology = “RokaMLTree.topology"
 	
 BEAST Analysis
 
