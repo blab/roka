@@ -15,15 +15,17 @@ Sequence Alignment
 	Alignment was checked visually in Geneious (trial version).
 
 
-Maximum Likelihood Analysis
+Maximum Likelihood Analysis: 
+	1: all controls and all roka seqs (roka-nonia for roka that cluster with controls)
+	2: Just 199 clustering roka seqs
 	
-	Infile = "RokaOutgroupAligned.fasta"
+	Infile = "full_env_aligned.fasta"
 	
 	Converted file to .phyx using SeqMagick. Command:
-	seqmagick convert RokaOutgroupAligned.fasta RokaOutgroupAligned.phyx
+	seqmagick convert full_env_aligned.fasta full_env_aligned.phyx
 	
 	Performed with RAxML locally. Command:
-	./raxml -f d -T 6 -s RokaOutgroupAligned.phyx -n topology -c 25 -m GTRCAT -p 344312987 -o Pailin_C10346_Env 
+	./raxml -f d -T 6 -s full_env_aligned.phyx -n topology -c 25 -m GTRCAT -p 344312987 
 	
 	OUTFILES:
 	Tree topology = “RokaMLTree.topology"
