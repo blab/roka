@@ -12,13 +12,10 @@ BEAST analysis files (xmls, tree files, mcc trees, log files etc) can be found i
 Detailed analysis pipeline, including infile preparation, alignment etc. is available in [PipelineSteps.txt](https://github.com/blab/roka/blob/master/PipelineSteps.txt)
 For control sequences dates and taxon names were parsed together using [parseSeqdates.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/parseSeqDates.py)
 
-####Notes
-* Clock prior was estimated from Francois's original analysis using [this R script](https://github.com/blab/roka/blob/master/Scripts/R_scripts/clockprior_daytoyear.R). This rate really should be estimated from a broader temporal sample of sequences from roughly the same geographic area.
-
-* Figures can be seen in the README file in [beast](https://github.com/blab/roka/tree/master/beast).
+* The [README in beast](https://github.com/blab/roka/tree/master/beast) has notes about the analysis and presents figures.
 
 
-###Analysis of Env + Prot + RT (current plan of attack)
+####Analysis of Env + Prot + RT (current plan of attack)
 * Data wrangle to ensure that all taxa have same dates and naming convention using [parseMultipleGenes.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/parseMultipleGenes.py). (Done)
 
 * Concatenate gene segments together using [ConcatGeneSegs.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/ConcatGeneSegs.py) because segments on their own aren't sufficiently informative for GARD analysis. (Done)
