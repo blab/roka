@@ -16,4 +16,4 @@ viruses are monophyletic and closely related.
 
 Roka outbreak sequences rooted by `NCHADS124`.
 
-![](/env_only/figures/roka_env_aligned_tree.png)
+![](env_only/figures/roka_env_aligned_tree.png)
