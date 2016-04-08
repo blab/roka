@@ -37,6 +37,23 @@ Skyline plot to look at changes in viral population size over time.
 
 ## Env + prot + RT analysis:
 
-* In progress.
+#### Root-to-tip divergence for different gene's (as estimated in Path-O-Gen)
+
+Slope of the regression line estimates the rate of a strict clock and correlation coefficient presents an estimate of the variation in the data accounted for by the regression. All estimates use best fitting root.
+
+* Env: Slope(rate) = 2.8954E-3, Correlation Coefficient = 0.5037
+
+* Prot: Slope(rate)	= 9.711E-4, Correlation Coefficient	= 0.4673
+
+* RT: Slope(rate) = 9.0201E-4, Correlation Coefficient = 0.5559
 
 
+#### Molecular clock estimation from control sequences
+
+BEAST analyses to estimate the posterior distribution of the evolutionary rate were conducted using the following models and priors:
+
+* HKY with Gamma (4) rate variation between sites as the evolutionary model
+
+* Bayesian Skyline with 10 intervals as the demographic model
+
+* Strict molecular clock with prior distribution of XXX (need to figure this out)
