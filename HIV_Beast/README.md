@@ -57,13 +57,19 @@ Slope of the regression line estimates the rate of a strict clock and correlatio
 
 Again, slope of the regression line provides an estimate of the evolutionary rate. Here divergence is simply the number of nt differences between the reference sequence and all other sequences in the alignment divided by the sequence length (to get number of nt differences per site). Calendar dates were parsed as numbers in Path-O-Gen and used as the date information in these plots. The reference sequence is the outgroup from the ML tree fit in a Path-O-Gen analysis with the best fitting root. Gaps and ambiguous bases (coded with IUPAC codes) are treated as missing data and do not contribute to counts of nt differences. The code for making the plots is [in this iPython notebook.] (https://github.com/blab/roka/blob/master/HIV_data/control_only/NtDiff_Dates_RokaControls.ipynb)
 
-###### NOTE: For RT and Prot it wasn't completely clear which taxon was the outgroup. Using different reference sequences does cause the rate to change a little bit (see the sensitivity analyses for prot and RT).
+###### NOTE: For RT and Prot it wasn't completely clear which taxon was the outgroup. Using different reference sequences does cause the rate to change (see the sensitivity analyses for prot and RT). Just looking at the ML trees in FigTree H0725135 looks like it should be the outgroup for all the genes, but when using the best fitting root in Path-O-Gen other taxa group out (and are shown as additional clock plots)
 
 * Env
+
+With H0725135 as the outgroup:
 
 ![](controls/Raw_Clock_Plots/ENV_clockplot.png)
 
 * Prot
+
+With H0725135 as the outgroup:
+
+![](controls/Raw_Clock_Plots/Prot_clockplot_H0725135_OUT.png)
 
 With R0222042 as outgroup:
 
@@ -74,6 +80,10 @@ With T0527136 as outgroup:
 ![](controls/Raw_Clock_Plots/Prot_clockplot_T0527136_OUT.png)
 
 * RT
+
+With H0725135 as the outgroup:
+
+![](controls/Raw_Clock_Plots/RT_clockplot_H0725135_OUT.png)
 
 With R0222042 as outgroup:
 
