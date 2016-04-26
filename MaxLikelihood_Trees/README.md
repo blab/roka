@@ -14,10 +14,23 @@ viruses are monophyletic and closely related.
 
 ## Figures
 
-Roka outbreak sequences rooted by `NCHADS124`.
+### Roka outbreak sequences rooted by `NCHADS124`.
 
 ![](https://github.com/blab/roka/blob/master/MaxLikelihood/env_only/figures/roka_env_aligned_tree.png)
 
+### Control sequences show topological incongruency across Env, Prot, and RT
+
+* Env controls (taxa that group together are colored the same)
+
+![](HIV_env_prot_RT/control_envML_COLORED.png)
+
+* Prot controls (taxa are colored the same as in env tree, note that like colors do not group)
+
+![](HIV_env_prot_RT/control_protML_COLORED.png)
+
+* RT controls (taxa are colored the same as in env tree, note that like colors do not group)
+
+![](HIV_env_prot_RT/control_RT_ML_COLORED.png)
 
 # HCV - figures and interpretation
 
