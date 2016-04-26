@@ -61,15 +61,27 @@ Again, slope of the regression line provides an estimate of the evolutionary rat
 
 * Env
 
-![](/controls/Raw_Clock_Plots/ENV_clockplot.png)
+![](controls/Raw_Clock_Plots/ENV_clockplot.png)
 
 * Prot
 
-![](/controls/Raw_Clock_Plots/ENV_clockplot.png)
+With R0222042 as outgroup:
+
+![](controls/Raw_Clock_Plots/Prot_clockplot_R0222042_OUT.png)
+
+With T0527136 as outgroup:
+
+![](controls/Raw_Clock_Plots/Prot_clockplot_T0527136_OUT.png)
 
 * RT
 
-![](/controls/Raw_Clock_Plots/ENV_clockplot.png)
+With R0222042 as outgroup:
+
+![](controls/Raw_Clock_Plots/RT_clockplot_R0222042_OUT.png)
+
+With W0530014 as outgroup:
+
+![](controls/Raw_Clock_Plots/RT_clockplot_W0530014_OUT.png)
 
 #### Molecular clock estimation from control sequences using BEAST
 
