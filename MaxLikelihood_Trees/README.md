@@ -25,11 +25,11 @@
 
 There are some sequences that were sampled in Roka during the outbreak investigation that group with control sequences as opposed to with the rest of the Roka outbreak. These infections were likely prevalent infections that were not iatrogenically transmitted. Thus they are removed from the Roka sequence set in the Roka outbreak analyses. To find these samples we have inferred trees from alignments of the Roka sequences and controls together.
 
-*From analysis of Env sequences: `NCHADS116`, `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are monophyletic and closely related.
+* From analysis of Env sequences: `NCHADS116`, `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are monophyletic and closely related.
 
-*From analysis of RT sequences: `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are closely related. This agrees with what we find from the env sequences. `NCHADS116` did not have a sequence for RT.
+* From analysis of RT sequences: `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are closely related. This agrees with what we find from the env sequences. `NCHADS116` did not have a sequence for RT.
 
-*From analysis of the Prot sequences:  `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are closely related. This agrees with what we find from the env and prot sequences. `NCHADS116` did not have a sequence for prot.
+* From analysis of the Prot sequences:  `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are closely related. This agrees with what we find from the env and prot sequences. `NCHADS116` did not have a sequence for prot.
 
 ## Roka sequences only
 
