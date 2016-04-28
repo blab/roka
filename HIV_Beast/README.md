@@ -63,7 +63,9 @@ Again, slope of the regression line provides an estimate of the evolutionary rat
 
 With H0725135 as the outgroup:
 
-![](controls/Raw_Clock_Plots/ENV_clockplot.png)
+![](controls/Raw_Clock_Plots/Env_clockplot_H0725135_OUT.png)
+
+Slope estimate of 1.25e-03 is slightly slower than that estimated by BEAST, and is outside of the BEAST env clock 95%HPD (which is 2.72e-03 to 5.16e-03).
 
 * Prot
 
@@ -71,13 +73,12 @@ With H0725135 as the outgroup:
 
 ![](controls/Raw_Clock_Plots/Prot_clockplot_H0725135_OUT.png)
 
-With R0222042 as outgroup:
-
-![](controls/Raw_Clock_Plots/Prot_clockplot_R0222042_OUT.png)
 
 With T0527136 as outgroup:
 
 ![](controls/Raw_Clock_Plots/Prot_clockplot_T0527136_OUT.png)
+
+Slope estimates of 1.56e-03 and 9.13e-04 both fall within the 95%HPD for the prot clock rate measured in BEAST (95%HPD was 6.09e-04, 1.893-03). Note though that the rates vary slightly depending on which outgroup is used (ie the rate does seem to be somewhat sensitive to which outgroup we select).
 
 * RT
 
@@ -89,9 +90,8 @@ With R0222042 as outgroup:
 
 ![](controls/Raw_Clock_Plots/RT_clockplot_R0222042_OUT.png)
 
-With W0530014 as outgroup:
+Again, slope estimates of 1.34e-03 and 6.13e-04 indicate that the rate is somewhat sensitive to the outgroup that is used as the reference sequence. The slightly faster rate does fall within the 95%HPD from the BEAST analysis (which is 6.86e-04, 1.51e-03). The slower rate falls just outside of the credible interval.
 
-![](controls/Raw_Clock_Plots/RT_clockplot_W0530014_OUT.png)
 
 #### Molecular clock estimation from control sequences using BEAST
 
