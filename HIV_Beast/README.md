@@ -105,7 +105,7 @@ BEAST analyses to estimate the posterior distribution of the evolutionary rate w
 
 * MCMC was run for 100 million generations logging every 50 000 steps (producing a posterior of 2000 trees).
 
-##### Clock.rates from BEAST analysis:
-* Env: mean	3.8278E-3, 95% HPD 2.7243E-3, 5.1582E-3
-* Prot: mean 1.2203E-3, 95% HPD 6.0925E-4, 1.8942E-3
-* RT: mean	1.0814E-3, 95% HPD 6.8573E-4, 1.514E-3
+##### Clock.rates from BEAST analysis of controls _going to use these as clock priors for BEAST analysis of Roka_
+* Env: mean	3.8278E-3, 95% HPD 2.7243E-3, 5.1582E-3, Standard Deviation: 6.1957E-4
+* Prot: mean 1.2203E-3, 95% HPD 6.0925E-4, 1.8942E-3, Standard Deviation: 3.4219E-4
+* RT: mean	1.0814E-3, 95% HPD 6.8573E-4, 1.514E-3, Standard Deviation: 2.1128E-4
