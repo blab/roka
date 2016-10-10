@@ -1,29 +1,19 @@
 # Analysis of Roka HIV outbreak
 
-There are two main analyses in the repo right now, an Env gene only analysis and and the (in progress) env+prot+RT analysis.
+##### Authors
 
-###Maximum Likelihood analysis
-ML trees can be found in the [MaxLikelihood folder](https://github.com/blab/roka/tree/master/MaxLikelihood). Currently only have an ML tree for env only.
+### Abstract
 
-###BEAST analysis
-BEAST analysis files (xmls, tree files, mcc trees, log files etc) can be found in the [beast folder](https://github.com/blab/roka/tree/master/beast)
+### Primary data/analysis
 
-####Analysis of Env-only
-Detailed analysis pipeline, including infile preparation, alignment etc. is available in [PipelineSteps.txt](https://github.com/blab/roka/blob/master/PipelineSteps.txt)
-For control sequences dates and taxon names were parsed together using [parseSeqdates.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/parseSeqDates.py)
+* Sequences and collection date data combined.
+* Maximum likelihood analysis of HIV-Env, HCV1b, and HCV6e.
+* Temporally-resolved phylogenetic trees estimated for HCV.
+* Clock prior derived for HIV-Env.
+* Temporally-resolved phylogenetic trees estimated for HIV-Env.
+* Model population dynamics of HIV-Env under Bayesian SkyGrid, Exponential growth, and Constant+Exponential growth models.
 
-* The [README in beast](https://github.com/blab/roka/tree/master/beast) has notes about the analysis and presents figures.
+### Supplemental data/analysis
 
-
-####Analysis of Env + Prot + RT (current plan of attack)
-* Data wrangle to ensure that all taxa have same dates and naming convention using [parseMultipleGenes.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/parseMultipleGenes.py). (Done)
-
-* Concatenate gene segments together using [ConcatGeneSegs.py](https://github.com/blab/roka/blob/master/Scripts/Python_scripts/ConcatGeneSegs.py) because segments on their own aren't sufficiently informative for GARD analysis. (Done)
-
-* Check for recombination: Ran GARD on [Datamonkey](http://www.datamonkey.org/) to look for possible recombination cutpoints. Dataset is too large to finish the run on datamonkey (gets to 75% finished before time runs out). No recombination detected at that point, but I want to do the full run. I'll get GARD set up locally and run again.
-
-* Use Cambodian or SE Asian sequences (control sequences) to better estimate the clock rate to use as an informed prior for phylogenetic inference. Important to allow us to get more precise estimates of the TMRCA. There isn't enough temporal spread in the Roka samples to estimate the evolutionary rate well from that data.
-
-* IF NO RECOMBINATION: Perform coalescent phylogenetic inference. Allow different clocks for the different genes, but share the tree priors. 
-
-* IF YES RECOMBINATION: Split the sequence on found cutpoints and peform the phylogenetic analysis.
+* Maximum likelihood analysis of HBV sequences
+* Maximum likelihood analysis of HIV-Protease and HIV-RT sequences
