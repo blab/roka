@@ -1,5 +1,3 @@
-# Maximum Likelihood Trees
-
 There are four broad categories of analyses that we did on HIV sequences for this paper.
 
 1. [Maximum likelihood analysis for HIV-Env, HIV-Protease, and HIV-RT.](roka/HIV/max_likelihood)
