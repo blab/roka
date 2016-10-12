@@ -7,7 +7,7 @@ The following types of files are available in this directory:
 * `.log` files contain the logged draws from the posterior distribution for various parameter values
 * `.tsv` files contain the mean, median, upper HPD, and lower HPD values of Ne used to make the skyline plot
 
-[This script](/roka/Scripts/R_scripts/SkylinePlotCode_roka.R) was used to plot the figure.
+[This script](/Scripts/R_scripts/SkylinePlotCode_roka.R) was used to plot the figure.
 
 #### Skyline plot
 
