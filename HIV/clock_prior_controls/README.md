@@ -1,3 +1,5 @@
+## Derive clock prior for HIV-Env
+
 HIV infections in Roka were sampled over a very short window of time (only a few weeks). As such, the Roka sequences have very little temporal signal with which to estimate the evolutionary rate. To improve the precision of our estimates of TMRCA we used an informed prior on the evolutionary rate for our analyses of HIV-Env in Roka. We derived the prior from using Bayesian coalescent analysis of 27 HIV-env sequences sampled from SE Asia between 1997 and 2014 that were unrelated to the Roka outbreak.
 
 To derive the prior we did the following:
