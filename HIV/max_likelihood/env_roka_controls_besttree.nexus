@@ -1,0 +1,324 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=230;
+	taxlabels
+	'H0725135|control|env|1997-07-25'
+	'H0728201|control|env|1997-07-28'
+	'H0729036|control|env|1997-07-29'
+	'H0915199|control|env|1997-09-15'
+	'J0330035|control|env|1999-03-30'
+	'J0420156|control|env|1999-04-20'
+	'J0430219|control|env|1999-04-30'
+	'K0526031|control|env|2000-05-26'
+	'K0829045|control|env|2000-08-29'
+	'NCHADS001|roka|env|2014-12-16'
+	'NCHADS002|roka|env|2014-12-16'
+	'NCHADS003|roka|env|2014-12-16'
+	'NCHADS004|roka|env|2014-12-16'
+	'NCHADS005|roka|env|2014-12-16'
+	'NCHADS006|roka|env|2014-12-16'
+	'NCHADS007|roka|env|2014-12-16'
+	'NCHADS008|roka|env|2014-12-16'
+	'NCHADS009|roka|env|2014-12-16'
+	'NCHADS010|roka|env|2014-12-16'
+	'NCHADS011|roka|env|2014-12-16'
+	'NCHADS012|roka|env|2014-12-16'
+	'NCHADS013|roka|env|2014-12-16'
+	'NCHADS014|roka|env|2014-12-16'
+	'NCHADS015|roka|env|2014-12-16'
+	'NCHADS016|roka|env|2014-12-16'
+	'NCHADS017|roka|env|2014-12-16'
+	'NCHADS018|roka|env|2014-12-16'
+	'NCHADS019|roka|env|2014-12-16'
+	'NCHADS020|roka|env|2014-12-16'
+	'NCHADS021|roka|env|2014-12-16'
+	'NCHADS022|roka|env|2014-12-16'
+	'NCHADS023|roka|env|2014-12-16'
+	'NCHADS024|roka|env|2014-12-16'
+	'NCHADS025|roka|env|2014-12-16'
+	'NCHADS026|roka|env|2014-12-16'
+	'NCHADS027|roka|env|2014-12-16'
+	'NCHADS028|roka|env|2014-12-16'
+	'NCHADS029|roka|env|2014-12-16'
+	'NCHADS030|roka|env|2014-12-16'
+	'NCHADS031|roka|env|2014-12-16'
+	'NCHADS032|roka|env|2014-12-16'
+	'NCHADS033|roka|env|2014-12-16'
+	'NCHADS034|roka|env|2014-12-16'
+	'NCHADS041|roka|env|2014-12-15'
+	'NCHADS042|roka|env|2014-12-15'
+	'NCHADS043|roka|env|2014-12-15'
+	'NCHADS044|roka|env|2014-12-15'
+	'NCHADS045|roka|env|2014-12-15'
+	'NCHADS050|roka|env|2014-12-15'
+	'NCHADS051|roka|env|2014-12-15'
+	'NCHADS052|roka|env|2014-12-15'
+	'NCHADS053|roka|env|2014-12-15'
+	'NCHADS054|roka|env|2014-12-15'
+	'NCHADS055|roka|env|2014-12-15'
+	'NCHADS056|roka|env|2014-12-15'
+	'NCHADS057|roka|env|2014-12-15'
+	'NCHADS058|roka|env|2014-12-15'
+	'NCHADS059|roka|env|2014-12-15'
+	'NCHADS060|roka|env|2014-12-15'
+	'NCHADS061|roka|env|2014-12-15'
+	'NCHADS062|roka|env|2014-12-15'
+	'NCHADS063|roka|env|2014-12-15'
+	'NCHADS064|roka|env|2014-12-15'
+	'NCHADS065|roka|env|2014-12-15'
+	'NCHADS066|roka|env|2014-12-15'
+	'NCHADS067|roka|env|2014-12-15'
+	'NCHADS068|roka|env|2014-12-15'
+	'NCHADS069|roka|env|2014-12-15'
+	'NCHADS070|roka|env|2014-12-15'
+	'NCHADS071|roka|env|2014-12-15'
+	'NCHADS072|roka|env|2014-12-15'
+	'NCHADS073|roka|env|2014-12-15'
+	'NCHADS074|roka|env|2014-12-15'
+	'NCHADS075|roka|env|2014-12-15'
+	'NCHADS076|roka|env|2014-12-15'
+	'NCHADS077|roka|env|2014-12-15'
+	'NCHADS078|roka|env|2014-12-15'
+	'NCHADS079|roka|env|2014-12-15'
+	'NCHADS080|roka|env|2014-12-15'
+	'NCHADS081|roka|env|2014-12-15'
+	'NCHADS082|roka|env|2014-12-15'
+	'NCHADS086|roka|env|2014-12-15'
+	'NCHADS087|roka|env|2014-12-15'
+	'NCHADS089|roka|env|2014-12-15'
+	'NCHADS091|roka|env|2014-12-15'
+	'NCHADS092|roka|env|2014-12-15'
+	'NCHADS093|roka|env|2014-12-15'
+	'NCHADS101|roka|env|2014-12-15'
+	'NCHADS102|roka|env|2014-12-11'
+	'NCHADS104|roka|env|2014-12-15'
+	'NCHADS105|roka|env|2014-12-15'
+	'NCHADS106|roka|env|2014-12-15'
+	'NCHADS109|roka|env|2014-12-11'
+	'NCHADS110|roka|env|2014-12-15'
+	'NCHADS113|roka|env|2014-12-17'
+	'NCHADS114|roka|env|2014-12-17'
+	'NCHADS115|roka|env|2014-12-17'
+	'NCHADS116|roka|env|2014-12-17'
+	'NCHADS117|roka|env|2014-12-17'
+	'NCHADS118|roka|env|2014-12-17'
+	'NCHADS119|roka|env|2014-12-17'
+	'NCHADS120|roka|env|2014-12-17'
+	'NCHADS121|roka|env|2014-12-17'
+	'NCHADS122|roka|env|2014-12-17'
+	'NCHADS123|roka|env|2014-12-15'
+	'NCHADS124|roka|env|2014-12-17'
+	'NCHADS125|roka|env|2014-12-17'
+	'NCHADS126|roka|env|2014-12-17'
+	'NCHADS127|roka|env|2014-12-17'
+	'NCHADS128|roka|env|2014-12-17'
+	'NCHADS129|roka|env|2014-12-17'
+	'NCHADS130|roka|env|2014-12-17'
+	'NCHADS131|roka|env|2014-12-17'
+	'NCHADS132|roka|env|2014-12-17'
+	'NCHADS133|roka|env|2014-12-17'
+	'NCHADS134|roka|env|2014-12-17'
+	'NCHADS135|roka|env|2014-12-17'
+	'NCHADS137|roka|env|2014-12-17'
+	'NCHADS138|roka|env|2014-12-17'
+	'NCHADS139|roka|env|2014-12-17'
+	'NCHADS140|roka|env|2014-12-18'
+	'NCHADS141|roka|env|2014-12-18'
+	'NCHADS142|roka|env|2014-12-18'
+	'NCHADS143|roka|env|2014-12-18'
+	'NCHADS144|roka|env|2014-12-18'
+	'NCHADS145|roka|env|2014-12-18'
+	'NCHADS146|roka|env|2014-12-18'
+	'NCHADS147|roka|env|2014-12-18'
+	'NCHADS148|roka|env|2014-12-18'
+	'NCHADS149|roka|env|2014-12-18'
+	'NCHADS150|roka|env|2014-12-18'
+	'NCHADS151|roka|env|2014-12-18'
+	'NCHADS152|roka|env|2014-12-18'
+	'NCHADS153|roka|env|2014-12-18'
+	'NCHADS154|roka|env|2014-12-18'
+	'NCHADS155|roka|env|2014-12-18'
+	'NCHADS156|roka|env|2014-12-18'
+	'NCHADS157|roka|env|2014-12-18'
+	'NCHADS158|roka|env|2014-12-18'
+	'NCHADS159|roka|env|2014-12-18'
+	'NCHADS161|roka|env|2014-12-19'
+	'NCHADS162|roka|env|2014-12-19'
+	'NCHADS163|roka|env|2014-12-19'
+	'NCHADS164|roka|env|2014-12-19'
+	'NCHADS165|roka|env|2014-12-19'
+	'NCHADS166|roka|env|2014-12-19'
+	'NCHADS167|roka|env|2014-12-19'
+	'NCHADS168|roka|env|2014-12-19'
+	'NCHADS169|roka|env|2014-12-19'
+	'NCHADS170|roka|env|2014-12-19'
+	'NCHADS171|roka|env|2014-12-19'
+	'NCHADS172|roka|env|2014-12-19'
+	'NCHADS173|roka|env|2014-12-19'
+	'NCHADS174|roka|env|2014-12-19'
+	'NCHADS176|roka|env|2014-12-22'
+	'NCHADS177|roka|env|2014-12-22'
+	'NCHADS178|roka|env|2014-12-22'
+	'NCHADS179|roka|env|2014-12-22'
+	'NCHADS180|roka|env|2014-12-22'
+	'NCHADS181|roka|env|2014-12-22'
+	'NCHADS182|roka|env|2014-12-22'
+	'NCHADS183|roka|env|2014-12-22'
+	'NCHADS184|roka|env|2014-12-22'
+	'NCHADS185|roka|env|2014-12-22'
+	'NCHADS186|roka|env|2014-12-22'
+	'NCHADS187|roka|env|2014-12-22'
+	'NCHADS188|roka|env|2014-12-22'
+	'NCHADS189|roka|env|2014-12-22'
+	'NCHADS190|roka|env|2014-12-22'
+	'NCHADS191|roka|env|2014-12-22'
+	'NCHADS192|roka|env|2014-12-22'
+	'NCHADS193|roka|env|2014-12-22'
+	'NCHADS194|roka|env|2014-12-22'
+	'NCHADS195|roka|env|2014-12-22'
+	'NCHADS196|roka|env|2014-12-23'
+	'NCHADS197|roka|env|2014-12-23'
+	'NCHADS198|roka|env|2014-12-23'
+	'NCHADS199|roka|env|2014-12-23'
+	'NCHADS200|roka|env|2014-12-23'
+	'NCHADS201|roka|env|2014-12-23'
+	'NCHADS202|roka|env|2014-12-24'
+	'NCHADS203|roka|env|2014-12-24'
+	'NCHADS204|roka|env|2014-12-24'
+	'NCHADS205|roka|env|2014-12-24'
+	'NCHADS207|roka|env|2014-12-26'
+	'NCHADS208|roka|env|2014-12-26'
+	'NCHADS209|roka|env|2014-12-26'
+	'NCHADS210|roka|env|2014-12-26'
+	'NCHADS211|roka|env|2014-12-26'
+	'NCHADS212|roka|env|2015-01-06'
+	'NCHADS213|roka|env|2015-01-06'
+	'NCHADS214|roka|env|2015-01-06'
+	'NCHADS215|roka|env|2014-12-31'
+	'NCHADS216|roka|env|2014-12-29'
+	'NCHADS217|roka|env|2014-12-29'
+	'NCHADS219|roka|env|2014-12-29'
+	'NCHADS220|roka|env|2014-12-29'
+	'NCHADS221|roka|env|2014-12-29'
+	'NCHADS222|roka|env|2014-12-29'
+	'NCHADS223|roka|env|2014-12-29'
+	'NCHADS224|roka|env|2014-12-31'
+	'NCHADS225|roka|env|2015-01-06'
+	'NCHADS226|roka|env|2015-01-28'
+	'NCHADS227|roka|env|2015-01-28'
+	'NCHADS228|roka|env|2015-01-28'
+	'NCHADS229|roka|env|2015-01-14'
+	'NCHADS230|roka|env|2015-01-08'
+	'NCHADS232|roka|env|2015-01-13'
+	'NCHADS233|roka|env|2015-01-13'
+	'NCHADS234|roka|env|2015-01-08'
+	'NCHADS235|roka|env|2015-01-08'
+	'NCHADS236|roka|env|2015-01-19'
+	'O0409117|control|env|2004-04-09'
+	'O0708154|control|env|2004-07-08'
+	'O0820158|control|env|2004-08-20'
+	'Pailin_C10216|control|env|2009-01-09'
+	'Pailin_C10346|control|env|2009-07-10'
+	'Pailin_C20233|control|env|2009-01-09'
+	'R0131317|control|env|2007-01-31'
+	'R0201074|control|env|2007-02-01'
+	'R0221192|control|env|2007-02-21'
+	'R0222042|control|env|2007-02-22'
+	'R0222053|control|env|2007-02-22'
+	'R0306224|control|env|2007-03-06'
+	'T0205131|control|env|2009-02-05'
+	'T0526205|control|env|2009-05-26'
+	'T0527136|control|env|2009-05-27'
+	'W0530014|control|env|2012-05-30'
+	'Y0916057|control|env|2014-09-16'
+	'Y1215137|control|env|2014-12-15'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('NCHADS124|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,((('NCHADS157|roka|env|2014-12-18'[&!color=#66ccff]:0.002557,(((('NCHADS018|roka|env|2014-12-16'[&!color=#66ccff]:0.001848,(((((('NCHADS148|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6,('NCHADS066|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS203|roka|env|2014-12-24'[&!color=#66ccff]:1.0E-6,('NCHADS131|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,('NCHADS126|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,((('NCHADS125|roka|env|2014-12-17'[&!color=#66ccff]:0.003411,'NCHADS207|roka|env|2014-12-26'[&!color=#66ccff]:0.002706)[&!color=#66ccff]:0.00265,('NCHADS174|roka|env|2014-12-19'[&!color=#66ccff]:0.007339,'NCHADS142|roka|env|2014-12-18'[&!color=#66ccff]:0.003654)[&!color=#66ccff]:0.001778)[&!color=#66ccff]:0.001752,('NCHADS178|roka|env|2014-12-22'[&!color=#66ccff]:0.003373,'NCHADS032|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.007083)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,(('NCHADS001|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(((((('NCHADS031|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(('NCHADS193|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,('NCHADS089|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS200|roka|env|2014-12-23'[&!color=#66ccff]:1.0E-6,('NCHADS155|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6,'NCHADS069|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003138,(('NCHADS133|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,'NCHADS179|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003133,((((('NCHADS128|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,('NCHADS219|roka|env|2014-12-29'[&!color=#66ccff]:1.0E-6,(('NCHADS191|roka|env|2014-12-22'[&!color=#66ccff]:0.00315,(('NCHADS077|roka|env|2014-12-15'[&!color=#66ccff]:0.003413,'NCHADS033|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS223|roka|env|2014-12-29'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003134,(('NCHADS067|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,((('NCHADS194|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,(('NCHADS086|roka|env|2014-12-15'[&!color=#66ccff]:0.00694,(('NCHADS220|roka|env|2014-12-29'[&!color=#66ccff]:0.003446,'NCHADS215|roka|env|2014-12-31'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003155,'NCHADS003|roka|env|2014-12-16'[&!color=#66ccff]:0.003236)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003164,'NCHADS093|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,('NCHADS152|roka|env|2014-12-18'[&!color=#66ccff]:0.006908,('NCHADS137|roka|env|2014-12-17'[&!color=#66ccff]:0.006771,'NCHADS161|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.006662)[&!color=#66ccff]:1.0E-6,('NCHADS091|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,(((('NCHADS016|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(('NCHADS204|roka|env|2014-12-24'[&!color=#66ccff]:0.003156,('NCHADS208|roka|env|2014-12-26'[&!color=#66ccff]:0.003223,('NCHADS186|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,('NCHADS236|roka|env|2015-01-19'[&!color=#66ccff]:0.003379,('NCHADS233|roka|env|2015-01-13'[&!color=#66ccff]:1.0E-6,('NCHADS019|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,'NCHADS176|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003109)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS053|roka|env|2014-12-15'[&!color=#66ccff]:0.003462)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS154|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS074|roka|env|2014-12-15'[&!color=#66ccff]:0.003274)[&!color=#66ccff]:1.0E-6,('NCHADS012|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,('NCHADS102|roka|env|2014-12-11'[&!color=#66ccff]:0.006979,'NCHADS138|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.00318)[&!color=#66ccff]:0.003531)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,('NCHADS020|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,((('NCHADS163|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6,'NCHADS025|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS149|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS044|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003148)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS225|roka|env|2015-01-06'[&!color=#66ccff]:0.006342)[&!color=#66ccff]:0.002936,('NCHADS141|roka|env|2014-12-18'[&!color=#66ccff]:0.003297,'NCHADS006|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003213)[&!color=#66ccff]:5.83E-4,('NCHADS123|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS177|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,(((('NCHADS214|roka|env|2015-01-06'[&!color=#66ccff]:0.00469,'NCHADS173|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS114|roka|env|2014-12-17'[&!color=#66ccff]:0.003333)[&!color=#66ccff]:1.0E-6,'NCHADS061|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS017|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.004775)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,('NCHADS023|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,((('NCHADS221|roka|env|2014-12-29'[&!color=#66ccff]:0.006856,'NCHADS183|roka|env|2014-12-22'[&!color=#66ccff]:0.003207)[&!color=#66ccff]:0.003201,(('NCHADS192|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,('NCHADS054|roka|env|2014-12-15'[&!color=#66ccff]:0.00359,(('NCHADS063|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,'NCHADS087|roka|env|2014-12-15'[&!color=#66ccff]:0.003203)[&!color=#66ccff]:1.0E-6,('NCHADS222|roka|env|2014-12-29'[&!color=#66ccff]:0.0096,'NCHADS002|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003015)[&!color=#66ccff]:2.0E-6)[&!color=#66ccff]:1.26E-4)[&!color=#66ccff]:1.0E-6,'NCHADS052|roka|env|2014-12-15'[&!color=#66ccff]:0.006608)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS058|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS144|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.018192,('NCHADS079|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,'NCHADS134|roka|env|2014-12-17'[&!color=#66ccff]:0.001745)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS101|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS167|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS153|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS156|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,((((('NCHADS121|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,('NCHADS130|roka|env|2014-12-17'[&!color=#66ccff]:0.018917,'NCHADS129|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003488)[&!color=#66ccff]:1.0E-6,('NCHADS092|roka|env|2014-12-15'[&!color=#66ccff]:0.00363,'NCHADS210|roka|env|2014-12-26'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003476)[&!color=#66ccff]:1.0E-6,(('NCHADS021|roka|env|2014-12-16'[&!color=#66ccff]:0.003621,'NCHADS081|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.00174,(((('NCHADS150|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6,'NCHADS064|roka|env|2014-12-15'[&!color=#66ccff]:0.006474)[&!color=#66ccff]:0.00325,'NCHADS118|roka|env|2014-12-17'[&!color=#66ccff]:0.001916)[&!color=#66ccff]:1.0E-6,((('NCHADS227|roka|env|2015-01-28'[&!color=#66ccff]:0.001749,'NCHADS228|roka|env|2015-01-28'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001733,'NCHADS071|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,('NCHADS056|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS172|roka|env|2014-12-19'[&!color=#66ccff]:0.003285,(((('NCHADS024|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(('NCHADS211|roka|env|2014-12-26'[&!color=#66ccff]:1.0E-6,('NCHADS140|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6,(('NCHADS209|roka|env|2014-12-26'[&!color=#66ccff]:1.0E-6,'NCHADS110|roka|env|2014-12-15'[&!color=#66ccff]:0.005507)[&!color=#66ccff]:1.0E-6,'NCHADS015|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.007061,('NCHADS076|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,'NCHADS013|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.002625)[&!color=#66ccff]:0.002625,('NCHADS062|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS106|roka|env|2014-12-15'[&!color=#66ccff]:0.009932,'NCHADS145|roka|env|2014-12-18'[&!color=#66ccff]:0.00329)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001755)[&!color=#66ccff]:0.001728,('NCHADS198|roka|env|2014-12-23'[&!color=#66ccff]:1.0E-6,((('NCHADS217|roka|env|2014-12-29'[&!color=#66ccff]:0.001771,'NCHADS122|roka|env|2014-12-17'[&!color=#66ccff]:0.001755)[&!color=#66ccff]:1.0E-6,'NCHADS188|roka|env|2014-12-22'[&!color=#66ccff]:0.001757)[&!color=#66ccff]:0.001751,(('NCHADS059|roka|env|2014-12-15'[&!color=#66ccff]:0.007202,'NCHADS213|roka|env|2015-01-06'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003499,(('NCHADS232|roka|env|2015-01-13'[&!color=#66ccff]:0.003283,'NCHADS065|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.003345,'NCHADS113|roka|env|2014-12-17'[&!color=#66ccff]:0.006546)[&!color=#66ccff]:0.001118)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001733,'NCHADS205|roka|env|2014-12-24'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001722)[&!color=#66ccff]:6.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001731,(('NCHADS010|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,('NCHADS235|roka|env|2015-01-08'[&!color=#66ccff]:1.0E-6,('NCHADS026|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,((('NCHADS009|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(((((((('NCHADS022|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,(('NCHADS139|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,('NCHADS224|roka|env|2014-12-31'[&!color=#66ccff]:1.0E-6,('NCHADS165|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6,('NCHADS042|roka|env|2014-12-15'[&!color=#66ccff]:0.007019,('NCHADS158|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6,('NCHADS202|roka|env|2014-12-24'[&!color=#66ccff]:1.0E-6,'NCHADS166|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:9.81E-4)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS212|roka|env|2015-01-06'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS146|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS117|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:7.47E-4,'NCHADS073|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001734,(('NCHADS135|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,(('NCHADS028|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,('NCHADS105|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,'NCHADS007|roka|env|2014-12-16'[&!color=#66ccff]:0.003525)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS029|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.005369,('NCHADS199|roka|env|2014-12-23'[&!color=#66ccff]:1.0E-6,(('NCHADS014|roka|env|2014-12-16'[&!color=#66ccff]:0.00173,'NCHADS041|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS170|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS216|roka|env|2014-12-29'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,(('NCHADS196|roka|env|2014-12-23'[&!color=#66ccff]:0.00176,'NCHADS011|roka|env|2014-12-16'[&!color=#66ccff]:0.003575)[&!color=#66ccff]:1.0E-6,'NCHADS008|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS050|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,((('NCHADS072|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS195|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,(('NCHADS143|roka|env|2014-12-18'[&!color=#66ccff]:0.003304,'NCHADS055|roka|env|2014-12-15'[&!color=#66ccff]:0.003509)[&!color=#66ccff]:1.0E-6,((('NCHADS005|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,'NCHADS119|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS104|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS109|roka|env|2014-12-11'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.002644,'NCHADS082|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.002636,(('NCHADS030|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6,((('NCHADS230|roka|env|2015-01-08'[&!color=#66ccff]:1.0E-6,(('NCHADS132|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,((((('NCHADS169|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6,('NCHADS127|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6,('NCHADS068|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,('NCHADS189|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,'NCHADS162|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001719)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS180|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS120|roka|env|2014-12-17'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS190|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS226|roka|env|2015-01-28'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS147|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS164|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS159|roka|env|2014-12-18'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS197|roka|env|2014-12-23'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS151|roka|env|2014-12-18'[&!color=#66ccff]:0.00174)[&!color=#66ccff]:9.61E-4)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS201|roka|env|2014-12-23'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:7.81E-4)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS043|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS057|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS034|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS168|roka|env|2014-12-19'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,(('NCHADS181|roka|env|2014-12-22'[&!color=#66ccff]:1.0E-6,('NCHADS078|roka|env|2014-12-15'[&!color=#66ccff]:0.007259,(((('NCHADS229|roka|env|2015-01-14'[&!color=#66ccff]:1.0E-6,'NCHADS027|roka|env|2014-12-16'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS075|roka|env|2014-12-15'[&!color=#66ccff]:0.003252)[&!color=#66ccff]:1.0E-6,'NCHADS115|roka|env|2014-12-17'[&!color=#66ccff]:0.003246)[&!color=#66ccff]:1.0E-6,'NCHADS182|roka|env|2014-12-22'[&!color=#66ccff]:0.003251)[&!color=#66ccff]:0.003471)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001735,'NCHADS045|roka|env|2014-12-15'[&!color=#66ccff]:0.003522)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.001779,('NCHADS051|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6,'NCHADS070|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:0.005308)[&!color=#66ccff]:4.49E-4,('NCHADS004|roka|env|2014-12-16'[&!color=#66ccff]:0.008743,'NCHADS080|roka|env|2014-12-15'[&!color=#66ccff]:0.006712)[&!color=#66ccff]:0.004435)[&!color=#66ccff]:1.0E-6,'NCHADS060|roka|env|2014-12-15'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:4.82E-4)[&!color=#66ccff]:0.003557,'NCHADS234|roka|env|2015-01-08'[&!color=#66ccff]:1.0E-6)[&!color=#66ccff]:1.0E-6,'NCHADS187|roka|env|2014-12-22'[&!color=#66ccff]:0.003288)[&!color=#66ccff]:0.007414)[&!color=#66ccff]:0.092103,('Pailin_C20233|control|env|2009-01-09'[&!color=#7f7f7f]:0.068018,'NCHADS171|roka|env|2014-12-19'[&!color=#66ccff]:0.07235)[&!color=#7f7f7f]:0.035758)[&!color=#7f7f7f]:0.015851,(('R0306224|control|env|2007-03-06'[&!color=#7f7f7f]:0.069069,(('R0222042|control|env|2007-02-22'[&!color=#7f7f7f]:0.09617,'Y1215137|control|env|2014-12-15'[&!color=#7f7f7f]:0.069396)[&!color=#7f7f7f]:0.021862,'H0725135|control|env|1997-07-25'[&!color=#7f7f7f]:0.324508)[&!color=#7f7f7f]:0.004597)[&!color=#7f7f7f]:0.003932,(('NCHADS116|roka|env|2014-12-17'[&!color=#66ccff]:0.085359,(('R0221192|control|env|2007-02-21'[&!color=#7f7f7f]:0.078825,((('H0915199|control|env|1997-09-15'[&!color=#7f7f7f]:0.020594,('Y0916057|control|env|2014-09-16'[&!color=#7f7f7f]:0.097723,(('NCHADS185|roka|env|2014-12-22'[&!color=#66ccff]:0.089095,'NCHADS184|roka|env|2014-12-22'[&!color=#66ccff]:0.046073)[&!color=#66ccff]:0.035001,'R0201074|control|env|2007-02-01'[&!color=#7f7f7f]:0.073691)[&!color=#7f7f7f]:1.0E-6)[&!color=#7f7f7f]:0.008736)[&!color=#7f7f7f]:0.005948,('Pailin_C10346|control|env|2009-07-10'[&!color=#7f7f7f]:0.058855,'T0527136|control|env|2009-05-27'[&!color=#7f7f7f]:0.082487)[&!color=#7f7f7f]:0.010353)[&!color=#7f7f7f]:0.009296,'O0820158|control|env|2004-08-20'[&!color=#7f7f7f]:0.0542)[&!color=#7f7f7f]:0.004453)[&!color=#7f7f7f]:0.005526,((((('H0728201|control|env|1997-07-28'[&!color=#7f7f7f]:0.031237,'O0409117|control|env|2004-04-09'[&!color=#7f7f7f]:0.04281)[&!color=#7f7f7f]:0.010716,(('K0829045|control|env|2000-08-29'[&!color=#7f7f7f]:0.022793,'O0708154|control|env|2004-07-08'[&!color=#7f7f7f]:0.106176)[&!color=#7f7f7f]:0.006574,('R0131317|control|env|2007-01-31'[&!color=#7f7f7f]:0.086267,('Pailin_C10216|control|env|2009-01-09'[&!color=#7f7f7f]:0.025008,'T0205131|control|env|2009-02-05'[&!color=#7f7f7f]:0.097518)[&!color=#7f7f7f]:1.0E-6)[&!color=#7f7f7f]:0.004384)[&!color=#7f7f7f]:0.011587)[&!color=#7f7f7f]:0.003115,'J0420156|control|env|1999-04-20'[&!color=#7f7f7f]:0.023934)[&!color=#7f7f7f]:0.001416,('H0729036|control|env|1997-07-29'[&!color=#7f7f7f]:0.048113,'J0330035|control|env|1999-03-30'[&!color=#7f7f7f]:0.011399)[&!color=#7f7f7f]:0.003664)[&!color=#7f7f7f]:0.005147,('R0222053|control|env|2007-02-22'[&!color=#7f7f7f]:0.050031,'T0526205|control|env|2009-05-26'[&!color=#7f7f7f]:0.040194)[&!color=#7f7f7f]:0.006561)[&!color=#7f7f7f]:0.012657)[&!color=#7f7f7f]:0.011547)[&!color=#7f7f7f]:1.0E-6,('J0430219|control|env|1999-04-30'[&!color=#7f7f7f]:0.038266,'W0530014|control|env|2012-05-30'[&!color=#7f7f7f]:0.08543)[&!color=#7f7f7f]:0.015486)[&!color=#7f7f7f]:0.002623)[&!color=#7f7f7f]:0.00523,'K0526031|control|env|2000-05-26'[&!color=#7f7f7f]:0.046026);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
