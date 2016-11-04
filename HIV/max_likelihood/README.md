@@ -6,11 +6,11 @@ Within this directory all tree files are `.nexus`. Files labelled as `besttree` 
 
 #### ML tree for HIV-Env
 
-![](HIVenv_MLtree.png)
+![](env_mltree_baltic.png)
 
 #### ML tree for HIV-RT and HIV-Prot
 
-![](HIVprot_rt_MLtree.png)
+![](protRT_mltree_baltic.png)
 
 * From analysis of Env sequences: `NCHADS116`, `NCHADS171`, `NCHADS184` and `NCHADS185` cluster within control sequences. All other Roka viruses are monophyletic and closely related.
 
