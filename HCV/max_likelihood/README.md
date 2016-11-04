@@ -1,9 +1,7 @@
 ## Maximum likelihood phylogenies for HCV
 
-This directory contains files for inferring maximum likelihood phylogenies for HCV1b and HCV6e. Files labelled as `besttree` represent the tree with the highest likelihood. Files with `bootstrap` have bootstrap support values for all nodes in the tree. Figures show bootstrap support values for key nodes. PDF versions of the figures shown below are also saved here.
-
-The outgroup is an HCV1h sequence [GenBank Accession FJ872355](https://www.ncbi.nlm.nih.gov/nuccore/FJ872355).
+This directory contains files for inferring maximum likelihood phylogenies for HCV1b and HCV6e. Files with `bootstrap` are the highest likelihood trees from raxml with bootstrap support values for all nodes in the tree. Files with `figtree_reroot` are the same files but have been re-rooted with the best fitting root (as determined in path-o-gen). These are the input files used for the figure creation.
 
 #### ML tree for HCV1b and HCV6e
 
-![](ML_HCV.png)
+![](hcv_mltree_baltic.png)
