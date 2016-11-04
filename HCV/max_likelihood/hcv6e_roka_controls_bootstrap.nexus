@@ -1,0 +1,166 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=72;
+	taxlabels
+	'E000269|2003-01-25|6e'
+	'E002159|2002-12-27|6e'
+	'E002278|2003-01-04|6e'
+	'NCHADS004|2014-12-16|6e'
+	'NCHADS005|2014-12-16|6e'
+	'NCHADS006|2014-12-16|6e'
+	'NCHADS008|2014-12-16|6e'
+	'NCHADS009|2014-12-16|6e'
+	'NCHADS014|2014-12-16|6e'
+	'NCHADS016|2014-12-16|6e'
+	'NCHADS019|2014-12-16|6e'
+	'NCHADS022|2014-12-16|6e'
+	'NCHADS023|2014-12-16|6e'
+	'NCHADS024|2014-12-16|6e'
+	'NCHADS025|2014-12-16|6e'
+	'NCHADS026|2014-12-16|6e'
+	'NCHADS028|2014-12-16|6e'
+	'NCHADS029|2014-12-16|6e'
+	'NCHADS034|2014-12-16|6e'
+	'NCHADS042|2014-12-15|6e'
+	'NCHADS052|2014-12-15|6e'
+	'NCHADS066|2014-12-15|6e'
+	'NCHADS069|2014-12-15|6e'
+	'NCHADS070|2014-12-15|6e'
+	'NCHADS071|2014-12-15|6e'
+	'NCHADS079|2014-12-15|6e'
+	'NCHADS086|2014-12-15|6e'
+	'NCHADS087|2014-12-15|6e'
+	'NCHADS109|2014-12-11|6e'
+	'NCHADS120|2014-12-17|6e'
+	'NCHADS128|2014-12-17|6e'
+	'NCHADS131|2014-12-17|6e'
+	'NCHADS147|2014-12-18|6e'
+	'NCHADS149|2014-12-18|6e'
+	'NCHADS150|2014-12-18|6e'
+	'NCHADS158|2014-12-18|6e'
+	'NCHADS160|2014-12-18|6e'
+	'NCHADS162|2014-12-19|6e'
+	'NCHADS163|2014-12-19|6e'
+	'NCHADS164|2014-12-19|6e'
+	'NCHADS169|2014-12-19|6e'
+	'NCHADS170|2014-12-19|6e'
+	'NCHADS178|2014-12-22|6e'
+	'NCHADS194|2014-12-22|6e'
+	'NCHADS195|2014-12-22|6e'
+	'NCHADS204|2014-12-24|6e'
+	'NCHADS205|2014-12-24|6e'
+	'NCHADS209|2014-12-26|6e'
+	'NCHADS210|2014-12-26|6e'
+	'NCHADS212|2015-01-06|6e'
+	'NCHADS221|2014-12-29|6e'
+	'NCHADS222|2014-12-29|6e'
+	'NCHADS223|2014-12-29|6e'
+	'NCHADS224|2014-12-31|6e'
+	'NCHADS234|2015-01-08|6e'
+	'R000032|2003-01-15|6e'
+	'R004936|2002-10-11|6e'
+	'R005898|2002-11-29|6e'
+	'R006192|2002-12-13|6e'
+	'R006232|2002-12-20|6e'
+	'R006235|2002-12-17|6e'
+	'R006424|2002-12-24|6e'
+	'R006427|2002-12-24|6e'
+	'T0331017-NS5B-H|2009-03-31|6e'
+	'T0408250-NS5B-H|2009-04-08|6e'
+	'T0424331-NS5B-H|2009-04-24|6e'
+	'T0519292-NS5B-H|2009-05-19|6e'
+	'T0529154-NS5B-H|2009-05-29|6e'
+	'V1118916-Ns5b|2011-11-18|6e'
+	'W0731890-Ns5b|2012-07-31|6e'
+	'X0423890-Ns5b|2013-04-23|6e'
+	'Y0410027-Ns5b|2014-04-10|6e'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NCHADS014|2014-12-16|6e':1.0E-6,((('NCHADS222|2014-12-29|6e':0.02702,(('NCHADS029|2014-12-16|6e':1.0E-6,'NCHADS009|2014-12-16|6e':1.0E-6)[&bootstrap=97]:0.002888,((('NCHADS086|2014-12-15|6e':1.0E-6,'NCHADS163|2014-12-19|6e':1.0E-6)[&bootstrap=100]:0.012049,(('NCHADS162|2014-12-19|6e':1.0E-6,(('NCHADS042|2014-12-15|6e':1.0E-6,'NCHADS005|2014-12-16|6e':1.0E-6)[&bootstrap=40]:1.0E-6,'NCHADS178|2014-12-22|6e':1.0E-6)[&bootstrap=88]:1.0E-6)[&bootstrap=98]:0.005591,((('E000269|2003-01-25|6e':1.0E-6,('W0731890-Ns5b|2012-07-31|6e':0.031196,('T0529154-NS5B-H|2009-05-29|6e':0.034915,('Y0410027-Ns5b|2014-04-10|6e':0.020056,'T0408250-NS5B-H|2009-04-08|6e':0.009456)[&bootstrap=58]:0.001911)[&bootstrap=52]:0.007389)[&bootstrap=51]:0.028278)[&bootstrap=100]:0.14421,(('V1118916-Ns5b|2011-11-18|6e':0.026672,((('T0519292-NS5B-H|2009-05-19|6e':0.057153,'T0331017-NS5B-H|2009-03-31|6e':0.009817)[&bootstrap=5]:1.0E-6,'T0424331-NS5B-H|2009-04-24|6e':0.023981)[&bootstrap=52]:0.015081,'X0423890-Ns5b|2013-04-23|6e':0.04066)[&bootstrap=61]:0.010529)[&bootstrap=53]:0.024005,'R006424|2002-12-24|6e':0.027142)[&bootstrap=48]:0.041986)[&bootstrap=98]:0.048066,((('R006192|2002-12-13|6e':1.0E-6,('R006235|2002-12-17|6e':1.0E-6,('R000032|2003-01-15|6e':1.0E-6,'R006427|2002-12-24|6e':1.0E-6)[&bootstrap=51]:1.0E-6)[&bootstrap=58]:1.0E-6)[&bootstrap=59]:1.0E-6,'R006232|2002-12-20|6e':1.0E-6)[&bootstrap=100]:0.022402,(('E002278|2003-01-04|6e':0.031085,(('R005898|2002-11-29|6e':0.027052,(('NCHADS023|2014-12-16|6e':1.0E-6,'NCHADS019|2014-12-16|6e':1.0E-6)[&bootstrap=100]:0.008751,('NCHADS071|2014-12-15|6e':0.014224,'NCHADS147|2014-12-18|6e':0.008773)[&bootstrap=83]:0.005569)[&bootstrap=43]:0.00131)[&bootstrap=33]:0.004104,('NCHADS079|2014-12-15|6e':0.002964,(('NCHADS223|2014-12-29|6e':0.003043,('NCHADS149|2014-12-18|6e':0.029653,'NCHADS128|2014-12-17|6e':0.008167)[&bootstrap=10]:1.0E-6)[&bootstrap=17]:0.005611,(('NCHADS195|2014-12-22|6e':0.002867,'NCHADS070|2014-12-15|6e':1.0E-6)[&bootstrap=96]:0.008648,((('NCHADS066|2014-12-15|6e':0.002866,('NCHADS024|2014-12-16|6e':0.003377,(('NCHADS025|2014-12-16|6e':1.0E-6,'NCHADS212|2015-01-06|6e':1.0E-6)[&bootstrap=78]:0.002832,'NCHADS221|2014-12-29|6e':0.00285)[&bootstrap=34]:0.002821)[&bootstrap=18]:1.0E-6)[&bootstrap=15]:1.0E-6,'NCHADS194|2014-12-22|6e':0.002848)[&bootstrap=1]:1.0E-6,'NCHADS109|2014-12-11|6e':1.0E-6)[&bootstrap=83]:0.00863)[&bootstrap=22]:1.0E-6)[&bootstrap=12]:0.003024)[&bootstrap=21]:0.008244)[&bootstrap=8]:0.003015)[&bootstrap=18]:0.008443,('R004936|2002-10-11|6e':0.028384,'E002159|2002-12-27|6e':0.01513)[&bootstrap=90]:0.013846)[&bootstrap=10]:0.004896)[&bootstrap=53]:0.025826)[&bootstrap=95]:0.022986)[&bootstrap=65]:0.011613)[&bootstrap=27]:0.002734,((('NCHADS052|2014-12-15|6e':0.002827,'NCHADS224|2014-12-31|6e':0.00293)[&bootstrap=100]:0.01487,(('NCHADS160|2014-12-18|6e':0.00573,'NCHADS234|2015-01-08|6e':0.008855)[&bootstrap=18]:1.0E-6,'NCHADS004|2014-12-16|6e':0.014713)[&bootstrap=71]:0.002924)[&bootstrap=48]:0.002827,(((((('NCHADS164|2014-12-19|6e':0.005575,'NCHADS069|2014-12-15|6e':1.0E-6)[&bootstrap=54]:1.0E-6,'NCHADS158|2014-12-18|6e':1.0E-6)[&bootstrap=94]:0.011867,('NCHADS170|2014-12-19|6e':1.0E-6,'NCHADS131|2014-12-17|6e':1.0E-6)[&bootstrap=96]:0.008649)[&bootstrap=52]:0.005987,('NCHADS150|2014-12-18|6e':0.005854,'NCHADS204|2014-12-24|6e':0.013245)[&bootstrap=70]:0.006608)[&bootstrap=26]:0.002735,(('NCHADS016|2014-12-16|6e':0.011577,((('NCHADS209|2014-12-26|6e':0.009194,'NCHADS210|2014-12-26|6e':1.0E-6)[&bootstrap=21]:1.0E-6,'NCHADS205|2014-12-24|6e':1.0E-6)[&bootstrap=93]:0.006694,'NCHADS120|2014-12-17|6e':0.005775)[&bootstrap=43]:1.0E-6)[&bootstrap=75]:0.008328,('NCHADS026|2014-12-16|6e':1.0E-6,'NCHADS006|2014-12-16|6e':1.0E-6)[&bootstrap=100]:0.014809)[&bootstrap=6]:1.0E-6)[&bootstrap=21]:0.005452,'NCHADS022|2014-12-16|6e':0.00609)[&bootstrap=17]:1.0E-6)[&bootstrap=47]:0.005547)[&bootstrap=28]:1.0E-6)[&bootstrap=92]:0.014784)[&bootstrap=70]:0.002821,('NCHADS169|2014-12-19|6e':1.0E-6,'NCHADS008|2014-12-16|6e':1.0E-6)[&bootstrap=67]:1.0E-6)[&bootstrap=32]:0.002846,('NCHADS087|2014-12-15|6e':1.0E-6,'NCHADS034|2014-12-16|6e':0.005914)[&bootstrap=30]:0.002847)[&bootstrap=35]:1.0E-6,'NCHADS028|2014-12-16|6e':0.002917);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bootstrap";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
