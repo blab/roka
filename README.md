@@ -25,6 +25,10 @@ François Rouet<sup>1</sup> Janin Nouhin<sup>1</sup>, Du-Ping Zheng<sup>2</sup>
 
 **Conclusions.** Unsafe injections in Cambodia most likely led to an explosive iatrogenic spreading of HIV, associated with a long-standing and more genetically-diverse HCV propagation.
 
+### Citation
+
+Rouet et al. 2017. Massive iatrogenic outbreak of human immunodeficiency virus type 1 in rural Cambodia, 2014-2015. Clin Infect Dis: cix1071. [doi.org/10.1093/cid/cix1071](https://doi.org/10.1093/cid/cix1071)
+
 ### Primary data and analysis
 
 * [Sequences and collection date data combined](Scripts/Python_scripts/Make_Fasta_Infiles.ipynb)
