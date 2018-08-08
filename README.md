@@ -30,6 +30,7 @@ François Rouet<sup>1</sup> Janin Nouhin<sup>1</sup>, Du-Ping Zheng<sup>2</sup>
 Rouet et al. 2017. Massive iatrogenic outbreak of human immunodeficiency virus type 1 in rural Cambodia, 2014-2015. Clin Infect Dis: cix1071. [doi.org/10.1093/cid/cix1071](https://doi.org/10.1093/cid/cix1071)
 
 ### Primary data and analysis
+Below are brief descriptions of the analyses we conducted for this project, with links out to the directories in this repo that are pertinent to each analysis. Within analysis-specific repos you'll find READMEs that give a more in-depth explanation of the analysis, and that display the figures that were generated.
 
 * [Sequences and collection date data combined](Scripts/Python_scripts/Make_Fasta_Infiles.ipynb)
 * [Maximum likelihood analysis of HIV-Env](HIV/max_likelihood/)
